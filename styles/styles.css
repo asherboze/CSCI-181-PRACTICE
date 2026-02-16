@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: lightgoldenrodyellow;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+#Page-header {
+  background-color: white;
+  border: 10px solid burlywood;
+  color: rgb(80, 2, 2);
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#Page-header nav a {
+  color: brown;
+}
+
+#Page-header nav a:hover {
+  color: darkred;
+}
+
+.body_text {
+  color: darkred;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+}
+
+.body_text a {
+  color: brown;
+}
+
+.body_text a:hover {
+  color: darkred;
+}
+
+.body_text h1 {
+  color: rgb(100, 4, 4);
+}
+
+.body_text h2 {
+  color: darkred;
+}
+
+.body_text h3 {
+  color: rgb(120, 10, 10);
+}
+
+.body_text h4 {
+  color: rgb(140, 20, 20);
+}
+
+.body_text h5 {
+  color: rgb(160, 30, 30);
+}
+
+.body_text small {
+  color: #a01e1e;
+}
+
+.cards {
+  background-color: white;
+  border: 10px solid burlywood;
+  border-radius: 10px;
+  color: rgb(80, 2, 2);
+  padding: 15px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
