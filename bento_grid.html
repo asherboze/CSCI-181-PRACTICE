@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .bento_grid {
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid_item {
+            overflow: hidden;
+        }
+
+        .grid_item_2_col {
+            grid-column: span 2;
+        }
+
+        .grid_item_2_row {
+            grid-row: span 2;
+        }
+
+        .grid_center {
+            background-color: saddlebrown;
+            color:black;
+            font-family: "Times New Roman", Times, serif;
+            border-radius: 12px;
+            font-size: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid_item img{
+            border-radius: 12px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .grid_item_2_col img{
+            border-radius: 12px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .grid_item_2_row img{
+            border-radius: 12px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class = "bento_grid">
+            <div class = "grid_item_2_col">
+                <img src="./Images/Bento Image_Family Photo Edited.jpg" alt="Photo of Family in college merchandise outside." />
+            </div>
+            <div class = "grid_item">
+                <img src="./Images/Bento Image_Sunglasses Edited.jpg" alt="Photo of Asher outside wearing a suit and sunglasses." />
+            </div>
+            <div class = "grid_item_2_row">
+                <img src="./Images/Bento Image_Majestic Waterfall Edited.jpg" alt="Photo of Asher posing in front of a waterfall.">
+            </div>
+            <div class = "grid_center">
+                <p>Asher Boze</p>
+            </div>
+            <div class = "grid_item_2_row">
+                <img src="./Images/Bento Image_Jojo Poses Edited.jpg" alt="Photo of Asher posing with his girlfriend at prom in a suit." />
+            </div>
+            <div class = "grid_item">
+                <img src="./Images/Bento Image_Guitar Edited.jpg" alt="Photo of Asher posing with his guitar." />
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
