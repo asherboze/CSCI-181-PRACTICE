@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Practice Web Page</title>
   </head>
@@ -20,7 +21,7 @@
     <section class="body_text">
       <h2>Practice Web Page</h2>
       <h3><a href="works.html">View My Work!</a></h3>
-      <img src="./images/Hero Image.jpg" alt="Landscape of a forest" />
+      <img src="./Images/Hero Image.jpg" alt="Landscape of a forest" />
     </section>
 
     <section>
@@ -50,6 +51,62 @@
         </p>
         <a href="https://www.youtube.com/watch?v=KCzwyFHSMdY">View Project</a>
       </article>
+    </section>
+
+    <section>
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <li>
+          <figure class="overflow-hidden w-100 h-50 p-5 rounded-xl inline-grid grid-cols-3 grid-rows-2 shadow-md gap-5 bg-amber-50 m-4">
+            <div class = "col-span-3 p-5">
+              <blockquote>
+                <p><span class="text-4xl text-stone-400">"</span>Asher is the greatest person I know, hands down! He has some nice feet too!"</p>
+              </blockquote>
+            </div>
+
+            <div class = "p-5">
+              <img class = "w-20 rounded-full object-cover h-15" src="./Images/Stock Headshot 1.jpg" alt="I don't freaking know"/>
+            </div>
+            <div class = "col-span-2 p-5">
+                <p class="font-bold">Marcus Demarcus III</p>
+                <p class="text-stone-500">Foot Photographer</p>
+            </div>
+          </figure>
+        </li>
+        <li>
+          <figure class="overflow-hidden w-100 h-50 p-5 rounded-xl inline-grid grid-cols-3 grid-rows-2 shadow-md gap-5 bg-amber-50 m-4">
+            <div class = "col-span-3 p-5">
+              <blockquote>
+                <p><span class="text-4xl text-stone-400">"</span>Asher saved my forty-seven children from a satellite that was burning up in the atmostphere!"</p>
+              </blockquote>
+            </div>
+
+            <div class="p-5">
+              <img class = "w-20 rounded-full object-cover h-15" src="./Images/Stock Headshot 2.jpg" alt="I don't freaking know"/>
+            </div>
+            <div class = "col-span-2 p-5">
+                <p class="font-bold">Jennilex Esquire</p>
+                <p class="text-stone-500">Spacewoman</p>
+            </div>
+          </figure>
+        </li>
+        <li>
+          <figure class="overflow-hidden w-100 h-50 p-5 rounded-xl inline-grid grid-cols-3 grid-rows-2 shadow-md gap-5 bg-amber-50 m-4">
+            <div class = "col-span-3 p-5">
+              <blockquote>
+                <p><span class="text-4xl text-stone-400">"</span>Asher *beep* is good. He give advice on *beep beep* calibration of forward thruster output."</p>
+              </blockquote>
+            </div>
+
+            <div class="p-5">
+              <img class = "w-20 rounded-full object-cover h-15" src="./Images/Stock Headshot 3.jpg" alt="I don't freaking know"/>
+            </div>
+            <div class = "col-span-2 p-5">
+                <p class="font-bold">Flunkulus Zorpedegum</p>
+                <p class="text-stone-500">Zumbugum Supreme</p>
+            </div>
+          </figure>
+        </li>
+      </ul>
     </section>
 
     <footer id="contact me">
