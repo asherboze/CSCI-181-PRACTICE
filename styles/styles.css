@@ -86,3 +86,34 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
 }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  padding: 0.5rem 0.75rem;
+  background: brown; /* Feel free to adjust look and feel for your site */
+  color: black;
+  border-radius: 0.5rem;
+}
+
+.skip-link:focus {
+  left: 0.75rem;
+  top: 0.75rem;
+  z-index: 101;
+}
+
+#Page-header nav a[aria-current="page"] {
+  font-weight: bold;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -7,19 +7,20 @@
     <title>Practice Web Page</title>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header id="Page-header">
       <img src="./Images/Asher Boze Logo.jpg" alt="Logo of Name" />
-      <nav>
+      <nav aria-label="Main Navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="works.html">Works</a></li>
+          <li><a href="works.html" aria-current="page">Works</a></li>
         </ul>
       </nav>
       <h1>Works</h1>
     </header>
 
-    <main>
+    <main id = "main-content">
       <img
         src="./Images/If The News Won't Cover It, I Will.jpg"
         alt="First Poem: If The News Won't Cover It, I WIll"

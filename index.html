@@ -8,16 +8,21 @@
     <title>Practice Web Page</title>
   </head>
   <body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header id="Page-header">
       <img src="./Images/Asher Boze Logo.jpg" alt="Logo of Name" />
-      <nav>
+      <nav aria-label="Main Navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
         </ul>
       </nav>
-      <h1>Home</h1>
     </header>
+
+    <main id="main-content">
+      <h1>Home</h1>
     <section class="body_text">
       <h2>Practice Web Page</h2>
       <h3><a href="works.html">View My Work!</a></h3>
@@ -128,5 +133,6 @@
         <button type="submit">Send your message!</button>
       </form>
     </footer>
+    </main>
   </body>
 </html>

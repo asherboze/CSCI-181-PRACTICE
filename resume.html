@@ -7,19 +7,20 @@
     <title>Practice Web Page</title>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header id="Page-header">
       <img src="./Images/Asher Boze Logo.jpg" alt="Logo of Name" />
-      <nav>
+      <nav aria-label="Main Navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
+          <li><a href="resume.html" aria-current="page">Resume</a></li>
           <li><a href="works.html">Works</a></li>
         </ul>
       </nav>
       <h1>Resume</h1>
     </header>
 
-    <main class="body_text">
+    <main class="body_text" id="main-content">
       <header>
         <h2>About Me</h2>
       </header>
