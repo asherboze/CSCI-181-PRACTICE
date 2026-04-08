@@ -14,6 +14,42 @@ body {
   width: 100vw;
 }
 
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body.dark #Theme-toggle {
+  background-color: gray;
+  color: white !important;
+  border-color: gray !important;
+}
+
+body.dark #main-content {
+  color: white !important;
+}
+
+body.dark .body_text h2,
+body.dark .body_text h3,
+body.dark .body_text h4,
+body.dark .body_text h5,
+body.dark .body_text a {
+  color: white !important;
+}
+
+body.dark .body_text a:hover {
+  color: gray !important;
+}
+
+body.dark #Page-header {
+  background-color: black !important;
+  border-color: gray !important;
+}
+
+body.dark #Page-header a {
+  color: white !important;
+}
+
 main {
   width: 100%;
   max-width: 100%;
@@ -116,4 +152,18 @@ main {
     transition-delay: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+#Theme-toggle {
+  border: 5px solid burlywood;
+  border-radius: 3px;
+  overflow: hidden;
+  color: brown;
+  padding: 2px;
+  font-weight: 500;
+}
+
+#Theme-toggle:hover {
+  cursor: pointer;
+  font-weight: 700;
 }
