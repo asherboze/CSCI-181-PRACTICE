@@ -167,3 +167,27 @@ main {
   cursor: pointer;
   font-weight: 700;
 }
+
+#weather-output {
+  border: solid black;
+  border-radius: 12px;
+  background-color: lightcoral;
+  padding: 10px;
+  font-size: 35px;
+}
+
+#weather-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#weather-bubble h1{
+  font-size: 40px;
+}
+
+#temperature {
+  font-size: 50px;
+}
